@@ -24,7 +24,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### App Walkthough GIF
 
-<img src= r"https://imgur.com/rff0dp4" width=250><br>
+<img src= 'https://i.imgur.com/KBlQEqY.gifv'https://i.imgur.com/KBlQEqY.gifvhttps://i.imgur.com/KBlQEqY.gifvhttps://i.imgur.com/KBlQEqY.gifv width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
@@ -39,7 +39,7 @@ Fixed by changing .getJsonmArray from "Results" to "results"
 
 Line 58 under MainActivity.java
 When debuging with real device after second thttps://portal-prd.humboldt.edu/psp/PAHUMPRD/EMPLOYEE/EMPL/h/?tab=DEFAULTry at debuging under variables I had
-this = {MainActivity$1@10261}https://portal-prd.humboldt.edu/psp/PAHUMPRD/EMPLOYEE/EMPL/h/?tab=DEFAULT
+this = {MainActivity$1@10261}https://portal-prd.humboldt.edu/psp/PAHUMPRD/EMPLOYEE/EMPL/h/?tab=DEFAULTr
 call = {RealCall@10312}
 e = {UnknownHOstExcep:Unable@1013} "java.net.UnknownHOstException:Unable to resolve host "api.themoviedb.org": No address associated with hostname"
 INTERNAL_ERROR = 500
