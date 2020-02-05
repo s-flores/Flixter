@@ -8,46 +8,49 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
+
 
 #### REQUIRED (10pts)
-- [ ] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [X] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 
 #### BONUS
-- [ ] (2pts) Views should be responsive for both landscape/portrait mode.
-   - [ ] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
-   - [ ] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
+- [X] (2pts) Views should be responsive for both landscape/portrait mode.
+   - [X] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
+   - [X] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
 
 - [ ] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [X] (2pts) Improved the user interface by experimenting with styling and coloring.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src=https://imgur.com/rff0dp4 width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
 
 Line 58 under MainActivity.java
-When debuging with emulator under variables I get
+When debuging with emulator under variables I had
 Connected to the target VM, address:'localhost:8600', transport:'socket' 
 and under console in MainActivity I get
 Hit json exception
 org.json JSONException: No value for results
+Fixed by changing .getJsonmArray from "Results" to "results"
 
 Line 58 under MainActivity.java
-When debuging with real device after second try at debuging under variables I get
-this = {MainActivity$1@10261}
+When debuging with real device after second thttps://portal-prd.humboldt.edu/psp/PAHUMPRD/EMPLOYEE/EMPL/h/?tab=DEFAULTry at debuging under variables I had
+this = {MainActivity$1@10261}https://portal-prd.humboldt.edu/psp/PAHUMPRD/EMPLOYEE/EMPL/h/?tab=DEFAULT
 call = {RealCall@10312}
 e = {UnknownHOstExcep:Unable@1013} "java.net.UnknownHOstException:Unable to resolve host "api.themoviedb.org": No address associated with hostname"
 INTERNAL_ERROR = 500
+Fixed by changing .getJsonmArray from "Results" to "results"
 
-When using the Glide library I get 
+When using the Glide library I had 
 "error: no suitable method found for into(TextView)method RequestBuilder"
 for this line:
 Glide.with(context).load(movie.getPosterPath()).into(ivPoster);
 "ivPoster" is underlined in red.
+Fixed problem by changing ivPoster datatype from textView to imageView
 
 
 ### Open-source libraries used
