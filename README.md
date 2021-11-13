@@ -1,7 +1,6 @@
 # Flixter
 Flixter is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Flix Part 2
 
 ### User Stories
 
@@ -10,12 +9,10 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 
 ### App Walkthough GIF
 
-)
+
 
 <img src=https://i.imgur.com/1fHk2oe.gif width=250><br>
 
-
-## Flix Part 1
 
 ### User Stories
 
